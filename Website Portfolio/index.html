@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irving's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!--this will be our navigation section with logo to left and links to right-->
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="#home">
+                    <!--logo became vector svg cuz the original image sucked with editing it onto site-->
+                    <img src="images/2K7j2301.svg" alt="logo" class="logo">
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="introduction" id="home">
+        <!--intro section with name and tagline and downloadable pdf button and photo of me!!! -->
+        <div class="introduction-text">
+            <h2>Hello, I'm <span>Irving!</span></h2>
+            <p class="tagline"> Creating accessible technology that empowers communities.</p>
+            <a href="images/Irving's Resume 2025 2.pdf" class="btn" download>View Resume</a>
+            <!--used W3Cschools to create download button-->
+        </div>
+
+        <div class="introduction-photo">
+            <img src="images/photofromeurope.jpg" alt="photo of me!">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <!--about me section mainly text with occasional bolded words to emphasize importance-->
+        <!--i used ChatGPT to polish and revise for spelling and grammar-->
+        <h2>Who am I?</h2>
+        <p>Hello! My name is <strong>Irving Garcia-Gomez</strong>, and I'm from Lumberton, North Carolina. I am currently a sophomore at the <strong>University of North Carolina at Chapel Hill</strong>, majoring in <strong>Information Science</strong>
+            with a minor in <strong>Data Science</strong>. My interests include user experience, interface design, and inclusive technology that makes digital tools more accessible to everyone. </p>
+            
+            <p>My passion for technology began
+            when I was six years old, watching my older brothers play on the PlayStation 2. I remember being captivated by the bright, colorful graphics and display of certain video games. I also
+            remember how simple yet efficient the user interface was for the console, which led to several fun and memorable experiences.</p> 
+            
+            <p>Since then, I've pursued opportunities that allow me to combine creativity,
+            leadership, and community. I currently serve as the <strong>Outreach Coordinator</strong> for <strong>Latinos In Tech (SHPE)</strong>, where I connect students with professional opportunities and foster an inclusive tech community. 
+            I am also <strong>a SILS Student Ambassador</strong>, representing the School of Information and Library Science, and a <strong>Kessler Intern</strong>, where I collaborate on initiatives supporting first-generation college students.</p>
+
+            <p>Beyond my academic and leadership experiences, I have developed strong technical and design skills. I am proficient in <strong>Python</strong>, <strong>HTML</strong>, and <strong>CSS</strong> for web development, and experienced
+            in design tools like <strong>Figma</strong> and <strong>Canva</strong>. These tools allow me to combine creativity with technical ability to create accessible digital experiences that empower communities.</p>
+        
+    </section>
+
+
+    <section id="projects" class="projects">
+        <h2> My Projects</h2>
+        <p class="project-intro">
+            A selection of my recent work highlighting my interests in user experience, design, and web development.
+        </p>
+
+        <div class="project-grid">
+            <!--used css grid columns to display five projects horizontally with similar display-->
+            <div class="project-card">
+                <img src="images/todolist image.png" alt="To-Do List Screenshot">
+                <h3>To-Do List Web App</h3>
+                <p>A web app developed utilizing HTML, CSS, and JavaScript to help user organize and prioritize daily tasks efficiently.</p>
+            </div>
+
+
+            <div class="project-card">
+                <img src="images/SolHacks Website.png" alt="Solhacks website screenshot">
+                <h3>SolHacks Website</h3>
+                <p>Helped design and develop UNC's Latinos In Tech first-ever Latinx oriented hackathon website. </p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/flyersesh.jpg" alt="LIT Study Session Infographic">
+                <h3>LIT Study Session Infographic</h3>
+                <p>Designed an infographic for LIT Study Session showcasing design skills.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/flyerphoto.jpg" alt="solhacks flyer screenshot">
+                <h3>SolHacks Infographic</h3>
+                <p>Created a promotional infographic in Canva to convey information about the hackathon. </p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/RIM Magazine.png" alt="RIM Magazine screenshot">
+                <h3>RIM Magazine</h3>
+                <p>A fictional basketball-themed digital magazine inspired by SLAM, designed using Figma to blend sports and visual storytelling.</p>
+            </div>
+            <!--all project cards contain photo of project + info explaining it-->
+            <!--i used ChatGPT to help style project cards so all display is simiilar looking consistent and professional-->
+
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <!--contact section contains links to email linkedin and github-->
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect, collaborate, or learn more about me and my work, please feel free to reach out!</p>
+        <ul>
+            <li>Email: <a href="mailto:irv@unc.edu">irv@unc.edu</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/irving-garcia-gomez-71ab92352/" target="_blank">linkedin.com/in/irving-garcia-gomez</a></li>
+            <li>GitHub: <a href="https://github.com/Irvvvvv" target="_blank">github.com/Irvvvvv</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <!--footer with name and copyright with all rights reserved. i have no license for this i just added it cuz it looks cool-->
+        <p>© 2025 Irving Garcia-Gomez. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
